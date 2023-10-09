@@ -30,5 +30,80 @@
     <!-- Web Title -->
     <title>Weatherio</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.png"
+            width="364"
+            height="58"
+            alt="logo"
+          />
+        </a>
+
+        <div class="search__view" data-search-view>
+          <div class="search__wrapper">
+            <input
+              type="search"
+              name="search"
+              placeholder="Search City..."
+              autocomplete="off"
+              class="search__field"
+              data-search-field
+            />
+
+            <span class="m__icon">Search</span>
+
+            <button
+              class="icon__btn leading__icon has__state"
+              aria__label="close__search"
+              data-search-toggler
+            >
+              <span class="m__icon">arrow_back</span>
+            </button>
+          </div>
+
+          <div class="search__result" data-search-result>
+            <ul class="view__list" data-search-list>
+              <li class="view__item">
+                <span class="m__icon">Location_on</span>
+
+                <div>
+                  <p class="item__title">London</p>
+                  <p class="label__2 item__subtitle">State Of London, GB</p>
+                </div>
+
+                <a
+                  href="#"
+                  class="item__link has__state"
+                  data-search-toggler
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="header__actions">
+          <button
+            class="icon__btn has__state"
+            aria-label="open search"
+            data-search-toggler
+          >
+            <span class="m__icon">search</span>
+          </button>
+
+          <a
+            href="#/current-location"
+            class="btn__primary has__state"
+            data-current-location-btn
+          >
+            <span class="m__icon">my_location</span>
+
+            <span class="span">Current Location</span>
+          </a>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>

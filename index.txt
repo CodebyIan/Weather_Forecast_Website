@@ -7,7 +7,7 @@ weatherio is a weather app made by CodebyIan
 
 alt = logo
 
-placeholder = Search city...
+placeholder = Search City...
 
 <span class="m-icon">search</span>
 
