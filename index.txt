@@ -26,6 +26,8 @@ Now
 
 25°c
 
+alt = overcast clouds
+
 Overcast Clouds
 
 <span class="m-icon">calendar_today</span>
@@ -71,6 +73,8 @@ Today at
 #---------- FORECAST ----------#
 
 5 Days Forecast
+
+alt = overcast clouds
 
 25
 25

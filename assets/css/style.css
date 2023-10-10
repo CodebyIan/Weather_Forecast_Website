@@ -294,7 +294,7 @@ body {
   color: var(--on-surface);
 }
 
-.card_lg {
+.card__lg {
   border-radius: var(--radius-28);
   padding: 20px;
 }
@@ -572,6 +572,32 @@ article.container::before {
 /*-----------------------------------*\
   #HIGHLIGHTS
 \*-----------------------------------*/
+.forecast__card .title__2 {
+  margin-block-end: 0;
+}
+
+.forecast__card :is(.card__item, .icon__wrapper) {
+  display: flex;
+  align-items: center;
+}
+
+.forecast__card .card__item:not(:last-child) {
+  margin-block-end: 12px;
+}
+
+.forecast__card .icon__wrapper {
+  gap: 8px;
+}
+
+.forecast__card .label__1 {
+  color: var(--on-surface-variant);
+  font-weight: var(--weight-semiBold);
+}
+
+.forecast__card .card__item > .label__1 {
+  width: 100%;
+  text-align: right;
+}
 
 /*-----------------------------------*\
   #HOURLY FORECAST
