@@ -9,9 +9,9 @@ alt = logo
 
 placeholder = Search City...
 
-<span class="m-icon">search</span>
+<span class="m__icon">search</span>
 
-<span class="m-icon">arrow_back</span>
+<span class="m__icon">arrow_back</span>
 
 London
 GB
@@ -30,10 +30,10 @@ alt = overcast clouds
 
 Overcast Clouds
 
-<span class="m-icon">calendar_today</span>
+<span class="m__icon">calendar_today</span>
 Thursday 16, Feb
 
-<span class="m-icon">location_on</span>
+<span class="m__icon">location_on</span>
 Nairobi, Kenya
 
 
@@ -44,7 +44,7 @@ Todays Highlights
 
 Air Quality Index
 
-<span class="m-icon">air</span>
+<span class="m__icon">air</span>
 
 23.3
 PM
@@ -53,11 +53,30 @@ PM
 Good
 
 Sunrise & Sunset
+
+<span class="m__icon">clear_day</span>
 Sunrise
-Sunset
 6:30 AM
+
+<span class="m__icon">clear_night</span>
+Sunset
 5:54 PM
 
+Humidity
+<span class="m__icon">humidity_percentage</span>
+35%
+
+Pressure
+<span class="m__icon">airwave</span>
+1052hPa
+
+Visibility
+<span class="m__icon">visibility</span>
+10km
+
+Feels Like
+<span class="m__icon">thermostat</span>
+25&degc
 
 
 #---------- HOURLY FORECAST ----------#

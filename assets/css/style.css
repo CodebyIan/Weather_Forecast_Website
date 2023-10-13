@@ -602,6 +602,95 @@ article.container::before {
 /*-----------------------------------*\
   #HOURLY FORECAST
 \*-----------------------------------*/
+.highlights .m__icon {
+  font-size: 3.2rem;
+}
+
+.highlight__list {
+  display: grid;
+  gap: 20px;
+}
+
+.highlight__list .title__3 {
+  color: var(--on-surface-variant);
+  margin-block-end: 20px;
+}
+
+.highlights .card__sm {
+  background-color: var(--black-alpha-10);
+  position: relative;
+}
+
+.highlight__card :is(.wrapper, .card__list, .card__item) {
+  display: flex;
+  align-items: center;
+}
+
+.highlight__card .wrapper {
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.highlight__card .card__list {
+  flex-wrap: wrap;
+  flex-grow: 1;
+  row-gap: 8px;
+}
+
+.highlight__card .card__item {
+  width: 50%;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.highlight__card .label__1 {
+  color: var(--on-surface-variant);
+}
+
+.badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 2px 12px;
+  border-radius: var(--radius-pill);
+  font-weight: var(--weight-semiBold);
+  cursor: help;
+}
+
+.badge.aqi__1 {
+  background-color: var(--bg-aqi-1);
+  color: var(--on-bg-aqi-1);
+}
+
+.badge.aqi__2 {
+  background-color: var(--bg-aqi-2);
+  color: var(--on-bg-aqi-2);
+}
+
+.badge.aqi__3 {
+  background-color: var(--bg-aqi-3);
+  color: var(--on-bg-aqi-3);
+}
+
+.badge.aqi__4 {
+  background-color: var(--bg-aqi-4);
+  color: var(--on-bg-aqi-4);
+}
+
+.badge.aqi__5 {
+  background-color: var(--bg-aqi-5);
+  color: var(--on-bg-aqi-5);
+}
+
+.highlight__card.two .card__item {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.highlight__card.two .label__1 {
+  margin-block-end: 4px;
+}
 
 /*-----------------------------------*\
   #FORECAST
