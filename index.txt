@@ -100,6 +100,7 @@ Today At
 
 
 #---------- FOOTER ----------#
+
 Developed By CodebyIan.
 Copyright © 2023, All Rights Reserved.
 
@@ -108,3 +109,11 @@ Powered By https://openweathermap.org/api
 title = "Free OpenWeather API"
 
 alt = "OpenWeather"
+
+#---------- ERROR (404) ----------#
+
+404
+Page Not Found!
+
+Go Home
+
