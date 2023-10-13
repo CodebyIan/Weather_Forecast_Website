@@ -2,7 +2,6 @@ weatherio
 weatherio is a weather app made by CodebyIan
 
 
-
 #---------- HEADER ----------#
 
 alt = logo
@@ -17,7 +16,6 @@ London
 GB
 
 Current Location
-
 
 
 #---------- CURRENT WEATHER ----------#
@@ -36,6 +34,16 @@ Thursday 16, Feb
 <span class="m__icon">location_on</span>
 Nairobi, Kenya
 
+
+#---------- FORECAST ----------#
+
+5 Days Forecast
+
+alt = overcast clouds
+
+25
+10 Oct
+Friday
 
 
 #---------- HIGHLIGHTS ----------#
@@ -81,29 +89,13 @@ Feels Like
 
 #---------- HOURLY FORECAST ----------#
 
-Today at
+Today At
 
 03 PM
-25
+25&deg;c
 
-
-
-
-#---------- FORECAST ----------#
-
-5 Days Forecast
-
-alt = overcast clouds
-
-25
-25
-17 Feb
-Friday
-
-
-
-#---------- HERO ----------#
-
+03 PM
+12 km/h
 
 
 #---------- FOOTER ----------#
