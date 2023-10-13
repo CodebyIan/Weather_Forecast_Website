@@ -345,6 +345,14 @@ body {
   font-size: var(--label-2);
 }
 
+.display__inline-1 {
+  display: inline-block;
+}
+
+.display__inline-2 {
+  display: inline-block;
+}
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -745,6 +753,37 @@ article.container::before {
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
+.footer,
+.footer .body__3:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  color: var(--on-surface-variant);
+  text-align: center;
+  gap: 12px 24px;
+  margin-block-start: 28px;
+  /* display: none; */
+}
+
+.fade__in .footer {
+  display: flex;
+}
+
+.footer .display__inline-1 {
+  color: var(--on-surface);
+}
+
+.footer:hover img {
+  filter: grayscale(1);
+}
+
+.footer .body__3:last-child {
+  gap: 6px;
+}
 
 /*-----------------------------------*\
   #MEDIA QUERIES

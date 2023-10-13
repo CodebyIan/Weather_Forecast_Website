@@ -1,4 +1,5 @@
 weatherio
+
 weatherio is a weather app made by CodebyIan
 
 
@@ -82,7 +83,7 @@ Visibility
 <span class="m__icon">visibility</span>
 10km
 
-Feels Like
+Temperature
 <span class="m__icon">thermostat</span>
 25&degc
 
@@ -99,3 +100,11 @@ Today At
 
 
 #---------- FOOTER ----------#
+Developed By CodebyIan.
+Copyright © 2023, All Rights Reserved.
+
+Powered By https://openweathermap.org/api
+
+title = "Free OpenWeather API"
+
+alt = "OpenWeather"

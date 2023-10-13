@@ -367,7 +367,7 @@
                 </div>
 
                 <div class="card card__sm highlight__card">
-                  <h3 class="title__3">Feels Like</h3>
+                  <h3 class="title__3">Temperature</h3>
 
                   <div class="wrapper">
                     <span class="m__icon">thermostat</span>
@@ -380,7 +380,7 @@
           </section>
 
           <!-- Hourly Forecast Section -->
-          <div
+          <section
             class="section hourly__forecast"
             aria-label="hourly forecast"
             data-hourly-forecast
@@ -596,7 +596,46 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </section>
+
+          <!-- Footer -->
+          <footer class="footer">
+            <p class="body__3">
+              Developed By
+              <a
+                href="https://ian-mucheru.netlify.app/"
+                target="_blank"
+                class="display__inline-1"
+                >CodebyIan</a
+              >. <br />
+              Copyright &copy;
+              <span id="displayYear" class="display__inline-2">
+                <script>
+                  let dt = new Date();
+                  document.getElementById("displayYear").innerHTML =
+                    dt.getFullYear();
+                </script> </span
+              >, All Rights Reserved.
+            </p>
+
+            <p class="body__3">
+              Powered By
+              <a
+                href="https://openweathermap.org/api"
+                title="Free OpenWeather API"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  src="./assets/images/openweather.png"
+                  width="150"
+                  height="30"
+                  loading="lazy"
+                  alt="OpenWeather"
+                />
+              </a>
+            </p>
+          </footer>
         </div>
       </article>
     </main>
